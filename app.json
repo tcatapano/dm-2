@@ -1,6 +1,7 @@
 {
   "name": "dm-2",
   "description": "",
+  "stack": "heroku-18",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate && bundle exec rake db:seed"
   },
